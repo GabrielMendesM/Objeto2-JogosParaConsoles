@@ -10,7 +10,7 @@ import java.util.concurrent.Semaphore;
 import javax.swing.JFrame;
 
 public class Jogo extends JFrame implements Runnable {
-    private static final int INTERVALO = 200;
+    private static final int INTERVALO = 100;
     private static final int NUM_CARROS = 5;
 
     private static boolean isRodando;
@@ -131,7 +131,7 @@ public class Jogo extends JFrame implements Runnable {
                 }
             }
             if (acabou) {
-                System.out.println(vencedor + " foi o vencedor!");
+                System.out.println("=========================\n" + vencedor.toUpperCase() + " FOI O VENCEDOR!\n=========================");
                 setIsRodando(false);
             }
 
