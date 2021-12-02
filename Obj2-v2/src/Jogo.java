@@ -9,8 +9,8 @@ public class Jogo extends JFrame {
     private static final int POS_X_INICIAL = 0;
     private static final int OFFSET_Y = 80;
     private static final int DISTANCIA_Y = 120;
-    private static final int VEL_MIN = 20;
-    private static final int VEL_MAX = 40;
+    private static final int VEL_MIN = 5;
+    private static final int VEL_MAX = 20;
     private static final int POS_CHEGADA = 800;
 
     private static String vencedor = null;

@@ -5,7 +5,7 @@ import javax.swing.JPanel;
 import javax.swing.ImageIcon;
 
 public class Carro extends Thread {
-    private static final int FRAMES_SEG = 30;
+    private static final int FRAMES_SEG = 60;
 
     private int posX, posY, velMin, velMax;
     private final int posChegada;
